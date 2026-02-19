@@ -1,0 +1,291 @@
+/* NBA.com Main Styles */
+:root {
+    --nba-blue: #1d428a;
+    --nba-red: #c8102e;
+    --nba-black: #000000;
+    --nba-white: #ffffff;
+    --nba-gray-100: #f5f5f5;
+    --nba-gray-200: #eeeeee;
+    --nba-gray-300: #dddddd;
+    --nba-gray-700: #444444;
+    --nba-gray-800: #222222;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "NBA-Draft", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--nba-white);
+    color: var(--nba-black);
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+/* Header & Nav */
+.NavBar_nav__U9xyc {
+    background-color: var(--nba-blue);
+    color: var(--nba-white);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.Layout_base__6IeUC {
+    padding-top: 60px !important;
+}
+
+/* Stories Section */
+#homepage-stories {
+    background: #000;
+    padding: 20px 0;
+}
+
+.storytellerContainer-VXwt8t {
+    display: flex;
+    overflow-x: auto;
+    padding: 0 20px;
+    gap: 12px;
+    scrollbar-width: none;
+}
+
+.storytellerContainer-VXwt8t::-webkit-scrollbar {
+    display: none;
+}
+
+.storyCellContainer-x7\+6pO {
+    flex: 0 0 160px;
+    height: 240px;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.2s;
+}
+
+.storyCellContainer-x7\+6pO:hover {
+    transform: scale(1.02);
+}
+
+.storyCell-WAKj5m img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rectangularTileGradient-HZOHwI {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 60%, rgba(0,0,0,0.8) 100%);
+}
+
+.storyTitle-OMQgdD {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+    line-height: 1.2;
+}
+
+.newChip-mzzrHi {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: var(--nba-blue);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 2px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+/* Sections Layout */
+.section-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--nba-gray-200);
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-title a {
+    font-size: 14px;
+    color: var(--nba-blue);
+    text-decoration: none;
+}
+
+/* Cards Grid */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: box-shadow 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card-img-wrap {
+    position: relative;
+    padding-top: 56.25%; /* 16:9 */
+}
+
+.card-img-wrap img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--nba-red);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+/* Feature Hero */
+.hero-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.hero-main {
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.hero-main img {
+    width: 100%;
+    display: block;
+}
+
+.hero-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 40px;
+    background: linear-gradient(transparent, rgba(0,0,0,0.9));
+    color: white;
+}
+
+.hero-info h2 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+/* Score Strip */
+.score-strip {
+    background: var(--nba-gray-100);
+    border-bottom: 1px solid var(--nba-gray-300);
+    padding: 10px 0;
+}
+
+.score-container {
+    display: flex;
+    overflow-x: auto;
+    padding: 0 20px;
+    gap: 1px;
+    scrollbar-width: none;
+}
+
+.score-card {
+    flex: 0 0 200px;
+    background: white;
+    padding: 10px;
+    border-right: 1px solid var(--nba-gray-300);
+    font-size: 12px;
+}
+
+.score-team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.team-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.team-logo {
+    width: 20px;
+    height: 20px;
+}
+
+.score-val {
+    font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+    .cards-grid { grid-template-columns: repeat(2, 1fr); }
+    .hero-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
+    .cards-grid { grid-template-columns: 1fr; }
+    .nav-content { gap: 15px; }
+}
