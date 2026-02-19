@@ -1,6 +1,182 @@
 [
-  { "team_name": "Boston Celtics", "probability": 0.99 },
-  { "team_name": "Denver Nuggets", "probability": 0.94 },
-  { "team_name": "Phoenix Suns", "probability": 0.72 },
-  { "team_name": "LA Lakers", "probability": 0.45 }
+    {
+        "team": "Oklahoma City Thunder",
+        "abbr": "okc",
+        "conference": "west",
+        "playoff_probability_percent": 98.925
+    },
+    {
+        "team": "Detroit Pistons",
+        "abbr": "det",
+        "conference": "east",
+        "playoff_probability_percent": 98.418
+    },
+    {
+        "team": "Boston Celtics",
+        "abbr": "bos",
+        "conference": "east",
+        "playoff_probability_percent": 98.868
+    },
+    {
+        "team": "San Antonio Spurs",
+        "abbr": "sas",
+        "conference": "west",
+        "playoff_probability_percent": 98.051
+    },
+    {
+        "team": "New York Knicks",
+        "abbr": "nyk",
+        "conference": "east",
+        "playoff_probability_percent": 98.553
+    },
+    {
+        "team": "Denver Nuggets",
+        "abbr": "den",
+        "conference": "west",
+        "playoff_probability_percent": 98.18
+    },
+    {
+        "team": "Cleveland Cavaliers",
+        "abbr": "cle",
+        "conference": "east",
+        "playoff_probability_percent": 98.536
+    },
+    {
+        "team": "Houston Rockets",
+        "abbr": "hou",
+        "conference": "west",
+        "playoff_probability_percent": 98.547
+    },
+    {
+        "team": "Los Angeles Lakers",
+        "abbr": "lal",
+        "conference": "west",
+        "playoff_probability_percent": 98.146
+    },
+    {
+        "team": "Toronto Raptors",
+        "abbr": "tor",
+        "conference": "east",
+        "playoff_probability_percent": 97.193
+    },
+    {
+        "team": "Minnesota Timberwolves",
+        "abbr": "min",
+        "conference": "west",
+        "playoff_probability_percent": 95.906
+    },
+    {
+        "team": "Philadelphia 76ers",
+        "abbr": "phi",
+        "conference": "east",
+        "playoff_probability_percent": 88.648
+    },
+    {
+        "team": "Orlando Magic",
+        "abbr": "orl",
+        "conference": "east",
+        "playoff_probability_percent": 81.389
+    },
+    {
+        "team": "Phoenix Suns",
+        "abbr": "phx",
+        "conference": "west",
+        "playoff_probability_percent": 96.731
+    },
+    {
+        "team": "Miami Heat",
+        "abbr": "mia",
+        "conference": "east",
+        "playoff_probability_percent": 87.579
+    },
+    {
+        "team": "Golden State Warriors",
+        "abbr": "gsw",
+        "conference": "west",
+        "playoff_probability_percent": 86.455
+    },
+    {
+        "team": "Charlotte Hornets",
+        "abbr": "cha",
+        "conference": "east",
+        "playoff_probability_percent": 15.971
+    },
+    {
+        "team": "Portland Trail Blazers",
+        "abbr": "por",
+        "conference": "west",
+        "playoff_probability_percent": 22.777
+    },
+    {
+        "team": "Atlanta Hawks",
+        "abbr": "atl",
+        "conference": "east",
+        "playoff_probability_percent": 24.549
+    },
+    {
+        "team": "LA Clippers",
+        "abbr": "lac",
+        "conference": "west",
+        "playoff_probability_percent": 10.724
+    },
+    {
+        "team": "Memphis Grizzlies",
+        "abbr": "mem",
+        "conference": "west",
+        "playoff_probability_percent": 3.736
+    },
+    {
+        "team": "Chicago Bulls",
+        "abbr": "chi",
+        "conference": "east",
+        "playoff_probability_percent": 3.244
+    },
+    {
+        "team": "Dallas Mavericks",
+        "abbr": "dal",
+        "conference": "west",
+        "playoff_probability_percent": 1.727
+    },
+    {
+        "team": "Milwaukee Bucks",
+        "abbr": "mil",
+        "conference": "east",
+        "playoff_probability_percent": 1.708
+    },
+    {
+        "team": "Utah Jazz",
+        "abbr": "uta",
+        "conference": "west",
+        "playoff_probability_percent": 2.846
+    },
+    {
+        "team": "Brooklyn Nets",
+        "abbr": "bkn",
+        "conference": "east",
+        "playoff_probability_percent": 1.666
+    },
+    {
+        "team": "New Orleans Pelicans",
+        "abbr": "nop",
+        "conference": "west",
+        "playoff_probability_percent": 2.909
+    },
+    {
+        "team": "Indiana Pacers",
+        "abbr": "ind",
+        "conference": "east",
+        "playoff_probability_percent": 1.443
+    },
+    {
+        "team": "Sacramento Kings",
+        "abbr": "sac",
+        "conference": "west",
+        "playoff_probability_percent": 1.564
+    },
+    {
+        "team": "Washington Wizards",
+        "abbr": "was",
+        "conference": "east",
+        "playoff_probability_percent": 2.37
+    }
 ]

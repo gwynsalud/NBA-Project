@@ -289,3 +289,36 @@ body {
     .cards-grid { grid-template-columns: 1fr; }
     .nav-content { gap: 15px; }
 }
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+}
+
+.oracle-card {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    padding: 15px;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.oracle-card:hover {
+    border-color: var(--nba-blue);
+}
+
+.prob-bar-bg {
+    background: #333;
+    height: 6px;
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.prob-bar-fill {
+    background: linear-gradient(90deg, #1d428a, #c8102e);
+    height: 100%;
+    border-radius: 3px;
+    transition: width 1s ease-out;
+}
