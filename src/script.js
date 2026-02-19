@@ -17,7 +17,7 @@ async function loadOraclePredictions() {
             const teamAbbr = item.abbr.toUpperCase();
             
             // Link to official NBA CDN for logos
-            const logoUrl = `https://www.nba.com/.element/img/1.0/teamsites/logos/teamlogos_500x500/${item.abbr.toLowerCase()}.png`;
+            const logoUrl = `https://cdn.nba.com/logos/nba/${item.abbr.toLowerCase()}/primary/L/logo.svg`;
 
             const card = document.createElement('div');
             card.className = 'oracle-card';
