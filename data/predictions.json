@@ -1,0 +1,6 @@
+[
+  { "team_name": "Boston Celtics", "probability": 0.99 },
+  { "team_name": "Denver Nuggets", "probability": 0.94 },
+  { "team_name": "Phoenix Suns", "probability": 0.72 },
+  { "team_name": "LA Lakers", "probability": 0.45 }
+]
