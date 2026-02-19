@@ -296,16 +296,32 @@ body {
     100% { opacity: 1; }
 }
 
-.oracle-card {
-    background: #1a1a1a;
+#oracle-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1px; /* This creates a thin "line" between cards if background is dark */
+    background: #333; /* Border color between cards */
     border: 1px solid #333;
-    padding: 15px;
-    border-radius: 4px;
-    transition: border-color 0.3s ease;
+}
+
+.oracle-card {
+    background: #111;
+    padding: 16px;
+    transition: background 0.2s;
 }
 
 .oracle-card:hover {
-    border-color: var(--nba-blue);
+    background: #1a1a1a;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+}
+
+.live-dot {
+    animation: blink 2s infinite;
 }
 
 .prob-bar-bg {
