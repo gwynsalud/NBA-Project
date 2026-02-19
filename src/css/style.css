@@ -1,28 +1,70 @@
-/* NBA.com Main Styles */
 :root {
     --nba-blue: #1d428a;
     --nba-red: #c8102e;
     --nba-black: #000000;
-    --nba-white: #ffffff;
-    --nba-gray-100: #f5f5f5;
-    --nba-gray-200: #eeeeee;
-    --nba-gray-300: #dddddd;
-    --nba-gray-700: #444444;
-    --nba-gray-800: #222222;
-}
-
-* {
-    box-sizing: border-box;
+    --nba-off-black: #121212;
+    --nba-gray-dark: #222222;
+    --nba-gray-light: #999999;
+    --accent-green: #00ff00;
 }
 
 body {
-    font-family: "NBA-Draft", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: var(--nba-black);
+    color: white;
+    font-family: "NBA-Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: var(--nba-white);
-    color: var(--nba-black);
-    line-height: 1.5;
-    overflow-x: hidden;
+}
+
+/* Oracle Section Specifics */
+#oracle-section {
+    background: linear-gradient(180deg, #050505 0%, #121212 100%);
+    border-top: 2px solid var(--nba-blue);
+}
+
+.oracle-card {
+    background: var(--nba-off-black);
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 15px;
+    transition: transform 0.2s, border-color 0.2s;
+    position: relative;
+    overflow: hidden;
+}
+
+.oracle-card:hover {
+    border-color: var(--nba-blue);
+    transform: translateY(-2px);
+}
+
+.oracle-card .team-name {
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.oracle-card .probability {
+    font-size: 24px;
+    font-weight: 900;
+    color: var(--accent-green);
+    margin: 10px 0;
+}
+
+.oracle-card .metric-label {
+    color: var(--nba-gray-light);
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+/* Status Indicator */
+.status-pill {
+    background: rgba(0, 255, 0, 0.1);
+    color: var(--accent-green);
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 9px;
+    font-weight: bold;
+    display: inline-block;
 }
 
 /* Header & Nav */
